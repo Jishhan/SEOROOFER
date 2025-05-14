@@ -210,7 +210,7 @@ header {
 }
 .why-point {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   margin-bottom: 36px;
 }
@@ -814,6 +814,7 @@ a.card-link {
     width: fit-content;
     padding: 7px 24px;
     margin-bottom: 22px;
+    font-size: 22px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -837,6 +838,12 @@ a.card-link {
     padding: 0px 114px;
     text-align: center;
   }
+  .why-point {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 36px;
+}
   .service-p {
     color: #fff;
     font-weight: 500;
@@ -1039,7 +1046,7 @@ a.card-link {
   .hero-buttons .solid-btn {
     background-color: #85193c;
     color: white;
-    padding: 11px;
+    padding: 15px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -1146,7 +1153,10 @@ a.card-link {
   }
 
   /* why section */
-
+  .why-section-two {
+    display: block;
+    margin: 50px 0px;
+}
   .why-content {
     display: flex;
     gap: 44px;
@@ -1162,7 +1172,7 @@ a.card-link {
   }
   .why-point-2 {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     align-items: self-start;
     margin-bottom: 18px;
     background-color: #f4f4f4;
